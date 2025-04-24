@@ -1,3 +1,9 @@
+# Polos Version
+Just saved these scripts so they dont get lost, where hard to find.
+added APCmini colorvalues for normal script.
+diddnt touch the extendet script, its ment for RGB backlit controler like the Midicraft (real nice but also expensive), maby i can ghet it to work with the apcMINI MKII wich is rgb
+
+
 # MIDICRAFT extended LED Feedback v1.2
 Lua script for grandMA2 Lighting Consoles to provide LED Feedback on Midi-Controllers from Midicraft
 
