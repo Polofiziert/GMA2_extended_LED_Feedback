@@ -32,6 +32,18 @@ local isStart = true
 local midifeedback = {}
 do local _ENV = midifeedback
 
+  --APC MINI Colors
+  local APCred = 3
+  local APCgreen = 1
+  local APCorange = 5
+  local APCredBlink = 4
+  local APCgreenBlink = 2
+  local APCorangelink = 6
+  local APCoff = 0
+
+  -- velocity(color)codes for empty, non-empty, sequence (off), sequence (on)
+  local velocity = {APCoff,APCoff,APCorange,APCgreen}
+
   local velocity = {0,126,126,127} -- velocity(color)codes for empty, non-empty, sequence (off), sequence (on)
     
   getHandle = gma.show.getobj.handle
